@@ -9,7 +9,7 @@ function confirmPassword(e) {
 
     if (password.value.length > 0) {
         if(password.value !== confirmPasswordInput.value) {
-           message.textContent = "Password does not match.";
+           message.textContent = "Password does not match."
         } else {
             message.textContent = "Registered Successfully";
         }
